@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato Lamborghini</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- VÍDEO DE FUNDO -->
+    <video autoplay muted loop class="video-fundo">
+        <source src="videos/video da lamborghini.mp4" type="video/mp4">
+    </video>
+
+    <!-- ESCURECER FUNDO -->
+    <div class="overlay"></div>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- LOGO -->
+        <div class="logo">
+            LAMBO SPEED
+        </div>
+
+        <!-- MENU -->
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="modelo.html">Modelos</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contato.html">Contato</a>
+             <a href="sobre.html">História</a>
+        </nav>
+
+        <!-- BARRA DE PESQUISA -->
+        <div class="barra-pesquisa">
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar Lamborghini...">
+
+            <button
+                type="button"
+                onclick="pesquisar()">
+                🔍
+            </button>
+        </div>
+
+    </header>
+
+    <!-- CONTATO -->
+    <section class="contato-container">
+
+        <div class="contato-box">
+
+            <h1>Entre em Contato</h1>
+
+            <p>
+                Envie sua mensagem para nossa equipe Lamborghini.
+            </p>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Seu nome"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="Seu e-mail"
+                    required>
+                    <textarea
+                 placeholder="Escreva sua crítica sobre a Lamborghini..."
+                  required
+                ></textarea>
+                <textarea
+                    placeholder="Digite sua mensagem"
+                    required>
+                </textarea>
+
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
